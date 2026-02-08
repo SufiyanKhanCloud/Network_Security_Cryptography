@@ -22,5 +22,5 @@ Since the `rockyou.txt` list would take ~5 days on this hardware, a targeted dic
 `john --format=crypt --wordlist=lab_passwords.txt myhashes.txt`
 
 ## 📊 Results
-![Cracked Passwords](./screenshots/result_summary.png)
+![Cracked Passwords]
 Successfully recovered plain-text passwords for `kali` and `labuser`.
