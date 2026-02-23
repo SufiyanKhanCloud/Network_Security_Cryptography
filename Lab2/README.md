@@ -38,6 +38,14 @@ Once the `dvwa` database was identified, I proceeded to dump the `users` table, 
 
 The following screenshot demonstrates the final stage of the attack where **sqlmap** successfully cracked the MD5 hashes of users like `admin` and `gordonb`.
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c0a8bb00-6e90-41c3-8c18-f87b3cb2e4bc" alt="sqlmap database dump" width="800">
+  <br>
+  <b>Figure 1: sqlmap successfully extracting and cracking the users table.</b>
+</p>
+
+
 ## 🚀 DevOps & Security Mitigation
 
 1. **Use of Prepared Statements:** Implementing PDO (PHP Data Objects) to ensure the SQL engine treats input as data, not executable code.
